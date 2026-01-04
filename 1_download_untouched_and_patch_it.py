@@ -101,7 +101,7 @@ def modify_file_with_my_fixes(input_file, output_file):
     content = content.replace(linestoremove, "")
 
     linestoremove = """    BypassedByBloggerPemula(/(lootlinks|onepiecered).co|(loot-links|links-loot|loot-link|mega-guy|utopianleaks|eofmukindwo|realiukzemydre|kmendation|bstlar|tonordersitye|bleleadersto|daughablelea).com|(lootdest|lootlink|best-links).org|lootdest.info|linksloot.net|free-content.pro/, function() {
-      if (/^\/([^\/]+)/.test(location.pathname)) {redirect('https://adbypass.org/bypass?bypass=' + location.href, false);}});
+      if (/^\\/([^\\/]+)/.test(location.pathname)) {redirect('https://adbypass.org/bypass?bypass=' + location.href, false);}});
 """
     content = content.replace(linestoremove, "")
 
@@ -130,7 +130,7 @@ def modify_file_with_my_fixes(input_file, output_file):
 """
     content = content.replace(linestoremove, "")
 
-    content = content.replace("/cutnet.net|(exego|cety).app|(jixo|jizo|gamco).online/", "/cutnet.net|(exego|cety).app|(jixo|jizo|gamco).online|cutyion.com/")
+    content = content.replace("/cutnet.net|(cutyion|cutynow).com|(exego|cety).app|(jixo|gamco).online/", "/cutnet.net|(cutyion|cutynow|cuttlinks).com|(exego|cety).app|(jixo|jizo|gamco).online/")
 
     content = content.replace("/(playonpc|yolasblog|playarcade).online|quins.us|(retrotechreborn|insurelean|ecosolardigest|finance240|2wheelslife|historyofyesterday).com|gally.shop|freeat30.org|ivnlnews.xyz/",
                               "/(playonpc|yolasblog|playarcade).online|(quins|megahosting).us|(retrotechreborn|insurelean|ecosolardigest|finance240|2wheelslife|historyofyesterday|tradeshowrating).com|gally.shop|evegor.net|freeat30.org|(qanin|ivnlnews|jobvox|gfcg).xyz/")
@@ -190,8 +190,8 @@ def modify_file_with_my_fixes(input_file, output_file):
 
     content = content.replace("/.*/, /upfion.com/", "/upfion.com/")
 
-    content = content.replace("BypassedByBloggerPemula(/(shrinke|shrinkme)\.\w+|(paid4link", "//BypassedByBloggerPemula(/(shrinke|shrinkme)\.\w+|(paid4link")
-    content = content.replace("CaptchaDone(() => {if (/^(shrinke|shrinkme)\.\w+/", "//CaptchaDone(() => {if (/^(shrinke|shrinkme)\.\w+/")
+    content = content.replace("BypassedByBloggerPemula(/(shrinke|shrinkme)\\.\\w+|(paid4link", "//BypassedByBloggerPemula(/(shrinke|shrinkme)\\.\\w+|(paid4link")
+    content = content.replace("CaptchaDone(() => {if (/^(shrinke|shrinkme)\\.\\w+/", "//CaptchaDone(() => {if (/^(shrinke|shrinkme)\\.\\w+/")
 
     ##content = content.replace("/www.google.com|recaptcha.net/", "/^(?:https?:\/\/)?(?:www\.)?(?:google\.com|recaptcha\.net)\/recaptcha\/api2\/.*$/")
 
@@ -201,8 +201,9 @@ def modify_file_with_my_fixes(input_file, output_file):
     content = content.replace("BypassedByBloggerPemula(/sfl.gl/, () => {if (BpParams.has('u')) {meta(atob(BpParams.get('u')));}});", 
                               """BypassedByBloggerPemula(/sfl.gl/, () => {if (BpParams.has('u')) {meta(atob(BpParams.get('u')));}; DoIfExists('button:innerText("OPEN LINK")', 2);});""")
 
+    # gongchandang49 - issues/1 - add app.khaddavi.net 2026-01-03
     content = content.replace("""BypassedByBloggerPemula(/tutwuri.id|(besargaji|link2unlock).com/, () => {ReadytoClick('#submit-button',2);ReadytoClick('#btn-2', 3);ReadytoClick('#verify > a ', 2);ReadytoClick('#verify > button ', 2);CaptchaDone(() => {DoIfExists('#btn-3');});});""",
-                              """BypassedByBloggerPemula(/tutwuri.id|(besargaji|link2unlock).com/, () => {ReadytoClick('#submit-button',2);ReadytoClick('#btn-2', 3);ReadytoClick('#verify > a ', 2);ReadytoClick('#verify > a ', 2);ReadytoClick('#second_open_placeholder > a ', 2);ReadytoClick('#verify > a ', 2);ReadytoClick('a:innerText("Go to Link")', 2);});""")
+                              """BypassedByBloggerPemula(/tutwuri.id|(besargaji|link2unlock).com|app.khaddavi.net/, () => {ReadytoClick('#submit-button',2);ReadytoClick('#btn-2', 3);ReadytoClick('#verify > a ', 2);ReadytoClick('#verify > a ', 2);ReadytoClick('#second_open_placeholder > a ', 2);ReadytoClick('#verify > a ', 2);ReadytoClick('a:innerText("Go to Link")', 2);});""")
 
     # gongchandang49 - issues/3 - modsfire fix 2025-09-20
     content = content.replace("""case 'modsfire.com': if (/^\\/([^\\/]+)/.test(h.pathname)) {return 'https://modsfire.com/d/' + RegExp.$1;} break;""", '')

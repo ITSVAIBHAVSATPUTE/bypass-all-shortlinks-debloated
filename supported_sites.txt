@@ -195,7 +195,7 @@ askpaccosi.com|cryptomonitor.in
 (jobmatric|carjankaari).com|techsl.online
 usersdrive.com|ddownload.com
 (devnote|formshelp|rcccn).in|djbassking.live
-cutnet.net|(cutyion|cutynow).com|(exego|cety).app|(jixo|gamco).online
+cutnet.net|(cutyion|cutynow|cuttlinks).com|(exego|cety).app|(jixo|jizo|gamco).online
 xonnews.net|toilaquantri.com|share4u.men|camnangvay.com
 oxy\.*
 largestpanel.in|(djremixganna|financebolo|emubliss).com|(earnme|usanewstoday).club|earningtime.in
@@ -249,7 +249,7 @@ exactpay.online|neverdims.com|sproutworkers.co
 (tinybc|phimne).com|(mgame|sportweb|bitcrypto).info
 (marketrook|governmentjobvacancies|swachataparnibandh|goodmorningimg|odiadance|newkhabar24|aiperceiver|kaomojihub|arkarinaukrinetwork|topgeninsurance).com|(winezones|kabilnews|myscheme.org|mpsarkarihelp|dvjobs|techawaaz).in|(biharhelp|biharkhabar).co|wastenews.xyz|biharkhabar.net
 (admediaflex|cdrab|financekita|jobydt|foodxor|mealcold|newsobjective|gkvstudy|mukhyamantriyojanadoot|thepragatishilclasses|indobo|pdfvale|templeshelp).com|(ecq|cooklike).info|(wpcheap|bitwidgets|newsamp|coinilium).net|atomicatlas.xyz|gadifeed.in|thecryptoworld.site|skyfreecoins.top|petly.lat|techreviewhub.store|mbantul.my.id
-tutwuri.id|(besargaji|link2unlock).com
+tutwuri.id|(besargaji|link2unlock).com|app.khaddavi.net
 (lyricsbaazaar|ezeviral).com
 (mangareleasedate|sabkiyojana|teqwit|bulkpit|odiafm).com|(loopmyhub|thepopxp).shop|cryptoblast.online
 short.croclix.me|adz7short.space
@@ -293,7 +293,7 @@ https://paster.so/*
 /(cybercityhelp|akcartoons).in/
 /www.akcartoons.in/
 /go.moonlinks.in/
-/shrinkme.(us|site|cc|vip|dev|ink)/
+/shrinkme.(us|site|cc|vip|dev|ink|click)/
 /test.shrinkurl.org/
 /shareus.io/
 /shareus\.io\/go\?sid=/
